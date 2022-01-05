@@ -4,7 +4,7 @@ dy = [0,0,-1,1]
 
 m,n = map(int, input().split())
 arr = [ list(map(int, input())) for _ in range(n)]
-dist = [[-1] * m for _ in range(n)]  # 가중치
+dist = [[-1] * m for _ in range(n)] 
 
 q = deque()
 q.append((0,0))
